@@ -1,0 +1,34 @@
+.panel li {
+	list-style-type: "★ ";
+}
+
+.accordion {
+	background: rgb(85 107 47);
+	color: rgb(244 240 234);
+	cursor: pointer;
+	padding: 1rem;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+	margin: 1% 0%;
+}
+  
+.active, .accordion:hover {
+	background: black;
+}
+  
+.panel {
+	padding: 5%;
+	display: none;
+	overflow: hidden;
+}
+  
+.accordion:after {
+	color: black;
+	float: right;
+	margin-left: 5px;
+	content: "★"; 
+}
+
