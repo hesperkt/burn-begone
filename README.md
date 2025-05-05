@@ -1,22 +1,17 @@
-# 📊 Project: Simple API 1
+# UV Index Checker
+As climate change persists, being aware of the current UV index in an area can support people in implementing appropriate sun protection prior to going outside! Empowering folks with 
 
-### Goal: Display data returned from an api
+**Link to project:** https://hesperkt.github.io/buckle-bunnies-fund/
 
-### How to submit your code for review:
+<img width="1360" alt="currentUVIndex" src="https://github.com/user-attachments/assets/ce545a58-93b1-47fd-97eb-3949e4bcb9f2" />
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It's Made:
+
+**Tech used:** HTML, CSS, JavaScript
+
+This page was my first personal implementation of an API! 
+
+## Future Optimizations
+- Add resources for people to protect themselves against UV radiation
+- Return an image along with UV index number
