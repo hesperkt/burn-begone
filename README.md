@@ -1,5 +1,5 @@
-# UV Index Checker
-As climate change persists, being aware of the current UV index in an area can support people in implementing appropriate sun protection prior to going outside! Empowering folks with 
+# Burn Begone
+As climate change persists, being aware of the current UV index in an area can support people in implementing appropriate sun protection prior to going outside! Burn Begone seeks to empower folks with the knowledge of the impact of greenhouse gases and equip them with ways to protect themselves. 
 
 **Link to project:** https://hesperkt.github.io/current-uv-index/
 
