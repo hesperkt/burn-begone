@@ -1,21 +1,90 @@
-.panel li {
-	list-style-type: "★ ";
+* {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+header {
+	background: rgb(182, 152, 255);
+}
+
+nav ul {
+	
+	display: flex;
+	justify-content: space-around;
+	column-gap: 10rem;
+	list-style-type: none;
+	background: rgb(182, 152, 255);
+}
+
+nav li {
+	padding: 1% 2%;
+}
+
+nav li a {
+	color: rgb(244 240 234);
+	text-decoration: none;
+}
+
+nav li a:hover {
+	color: black;
+}
+
+main {
+	display: flex;
+	margin: 2% 0;
+	gap: 1.5rem;
+	flex-wrap: wrap;
+}
+
+main section {
+	flex: 1;
+	border: 2px black solid;
+}
+
+.burnt img {
+	height: 100%;
+	width: 100%;
+}
+
+h1, h2, input, h3 {
+	text-align: center;
+}
+
+#about p{
+	margin: 5%;
+}
+
+.checker {
+	margin-bottom: 2%;
+	display: flex;
+	justify-content: center;
+	gap: 2%;
+}
+
+button {
+	background: rgb(182, 152, 255);
+	color: rgb(244 240 234);
+}
+
+.content{
+	display: flex;
+	gap: 5%;
+	flex-wrap: wrap;
+}
+.content div{
+	flex: 1;
 }
 
 .accordion {
-	background: rgb(85 107 47);
+	background: rgb(182, 152, 255);
 	color: rgb(244 240 234);
 	cursor: pointer;
 	padding: 1rem;
-	width: 100%;
 	text-align: left;
-	border: none;
-	outline: none;
 	transition: 0.4s;
 	margin: 1% 0%;
 }
   
-.active, .accordion:hover {
+.accordion:hover, button:hover {
 	background: black;
 }
   
@@ -29,6 +98,5 @@
 	color: black;
 	float: right;
 	margin-left: 5px;
-	content: "★"; 
 }
 

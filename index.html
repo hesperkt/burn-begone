@@ -11,33 +11,47 @@
         <header>
             <nav>
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Resources</li>
-                    <li>Contact</li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
         </header>
+        <h1>UV Index Checker</h1>
         <main>
-            <h1>UV Index Checker</h1>
-            <p></p>
-            <img src="" alt="">
+            <section class="burnt">
+                <img src="images/burnt.png" alt="">
+            </section>
+            <section id="about">
+                <h3>About:</h3>
+                <p style="text-indent:5%;">As the ozone layer in our atmosphere continues to thin due to air pollution and prevalence of greenhouse gases, it's imperative to equip ourselves with sun protection and informative resources!</p>
+                <p style="text-indent:5%;">A good starting point is being aware of the current ultraviolet index in our area! Entering the latitude and longitude of your area of interest below will return a UV index number. Based on the number, you can implement different layers of protection before heading outdoors.</p>
+                <p style="text-indent:5%;">Feel free to check out the FAQs below to learn more about the UV index. As this page continues to grow, more resources will be added.</p>
+            </section>
         </main>
-        <section>
-            <h2>Current UV Index: <span></span></h2>
-            <input class="latitude" placeholder="latitude"></input>
-            <input class="longitude" placeholder="longitude"></input>
-            <button>Check</button>
+        <section class="content">
+            <div>
+                <h2>Current UV Index: <span></span></h2>
+                <div class="checker">
+                    <input class="latitude" placeholder="latitude"></input>
+                    <input class="longitude" placeholder="longitude"></input>
+                    <button>Check</button>
+                </div>
+            </div>
+            <div>
+                <h2>FAQs</h2>
+                <h4 class="accordion">What is the UV index?</h4>
+                <p class="description panel">The UV Index, short for Ultraviolet Index, is a measurement scale used to indicate the intensity of ultraviolet radiation from the sun at a particular place and time. The values range from 0 to 11 and above. The higher the index value, the greater the potential for damage to the skin and eyes, and the less time it takes for harm to occur.</p>
+    
+                <h4 class="accordion">Why should you care about the UV index?</h4>
+                <p class="description panel">Being aware of the UV index can assist you in properly protecting yourself from excessive UV radiation, which can contribute to sunburn, DNA damage, skin cancer, eye damage, skin aging, and more.</p>
+            </div>
         </section>
-        <section>
-            <h3 class="accordion">What is the UV index?</h3>
-            <p class="description panel">The UV Index, short for Ultraviolet Index, is a measurement scale used to indicate the intensity of ultraviolet radiation from the sun at a particular place and time. The values range from 0 to 11 and above. The higher the index value, the greater the potential for damage to the skin and eyes, and the less time it takes for harm to occur.</p>
-
-            <h3 class="accordion">Why should you care about the UV index?</h3>
-            <p class="description panel">The UV Index, short for Ultraviolet Index, is a measurement scale used to indicate the intensity of ultraviolet radiation from the sun at a particular place and time. The values range from 0 to 11 and above. The higher the index value, the greater the potential for damage to the skin and eyes, and the less time it takes for harm to occur.</p>
-        </section>
+        
+        <footer>
+        </footer>
         <script type="text/javascript" src="js/main.js"></script>
     </body>
-    <footer>
-    </footer>
+    
 </html>
