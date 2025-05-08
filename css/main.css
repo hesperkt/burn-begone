@@ -40,9 +40,17 @@ main section {
 	border: 2px black solid;
 }
 
-.burnt img {
-	height: 100%;
-	width: 100%;
+.burnt {
+	background-image: url(/Users/hesperkt/Documents/GitHub/current-uv-index/images/burnt.png);
+	background-size: cover;
+}
+
+h3 {
+	font-size: 2.5rem;
+}
+
+p {
+	font-size: 1.25rem;
 }
 
 h1, h2, input, h3 {
