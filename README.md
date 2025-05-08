@@ -1,4 +1,4 @@
-# UV Index Checker
+# Burn Begone
 As climate change persists, being aware of the current UV index in an area can support people in implementing appropriate sun protection prior to going outside! Empowering folks with 
 
 **Link to project:** https://hesperkt.github.io/current-uv-index/
